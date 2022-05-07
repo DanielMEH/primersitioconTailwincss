@@ -1,0 +1,56 @@
+body{
+    
+    background-image: linear-gradient(#05344272, #0a3b6c3a),url("../image/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+    height: 100%;
+    
+
+}
+.hero{
+    background-image:linear-gradient(#03367d9e, #46057e8f), url("../image/hero.jpeg");
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-size:cover;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+.after_a::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition-duration: .4s;
+}
+
+.after_a:hover::after{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+
+
+.items1{
+
+}
+
+.items2{
+    color: red;
+}
